@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="file.css">
+
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to My portfolio</h1>
+        <nav>
+          <a href="#about-me">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact me</a>
+        </nav>
+        <hr />
+      </header>
+
+<!-- About me -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hello!</p>
+        <img src="https://png.pngtree.com/png-clipart/20240330/original/pngtree-lord-krishna-png-image_14718087.png" alt="" height="200" width="200">
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML
+                <ol>
+                    <li>Semantic HTML</li>
+                    <li>Forms & Tables</li>
+                    <li>SEO Basics</li>
+                </ol>
+            </li>
+            <li>CSS
+                <ol>
+                    <li>Flexbox & Grid</li>
+                    <li>Responsive Design</li>
+                    <li>Preprocessors (SASS)</li>
+                </ol>
+            </li>
+            <li>JavaScript
+                <ol>
+                    <li>DOM Manipulation</li>
+                    <li>ES6+</li>
+                    <li>AJAX</li>
+                </ol>
+            </li>
+        </ul>
+
+    </section>
+
+ <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Technologies used</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <a href="https://www.geeksforgeeks.org/simple-portfolio-website-design-using-html/">Portfolio</a></td>
+                <td> About Portfolio</td>
+                <td>
+                    About Me,Skills,Projects,Contact
+                </td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Banking System</td>
+                <td>Dost se banavaya</td>
+                <td>Java</td>
+                <td>2023</td>
+            </tr>
+        </tbody>
+
+        </table>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                 <br>
+            </div><br>
+
+            <div>
+                <label for="mail">Email: </label>
+                <input type="email"><br>
+               </div><br>
+
+               <div>
+                <label for="Phone">Mobile NO. </label>
+                <input type="number" id="Phone">
+            </div><br>
+            
+               <label for="inquiry">Inquiry Type</label><br>
+            <select id="inquiry" name="inquiry">
+                <option value="feedback">Feedback</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="support">Support</option>
+            </select><br>
+
+            <div>
+                <label for="trems">Terms and Conditions </label>
+                <input type="checkbox" id="term" required>
+            </div><br>
+
+            <div>
+                <label for="">Feedback: </label>
+                <textarea rows="5" cols="10"></textarea>
+            </div><br>
+
+
+            
+            <button type="submit">Submit</button>
+        
+    
+        </form>
+    </section>
+
+</body>
+</html>
